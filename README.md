@@ -1,6 +1,10 @@
 # FAST FLEX Feedback Autofill ⚡
 
-A lightweight Tampermonkey userscript that automates FAST FLEX teacher and lab evaluation forms. It selects **Strongly Agree** for all ratings and clears feedback comment boxes instantly.
+A lightweight Tampermonkey userscript that automates FAST FLEX teacher and lab evaluation feedback forms. It selects **Strongly Agree** for all ratings and clears feedback comment boxes instantly.
+
+It's a one time **Quick Set-Up** taking about 1 minute of your time, while saving you a lot of time for the rest of your degree.
+
+**WORK SMART NOT HARD :)**
 
 ---
 
@@ -21,7 +25,7 @@ A lightweight Tampermonkey userscript that automates FAST FLEX teacher and lab e
 ### Step 3: Enable Developer Mode (Required by Chrome)
 1. Open a new tab and go to `chrome://extensions`.
 2. Toggle **Developer mode** **ON** in the top-right corner.
-3. Find **Tampermonkey**, click **Details**, and toggle **Allow user scripts** **ON**.
+3. Find **Tampermonkey**, click **Details**, and toggle **Allow user scripts** **ON**. If can't find there check **Tampermonkey**, -> **Details** -> **Manage Extensions**, scroll down to **Allow user scripts** **ON**
 
 ---
 
