@@ -7,6 +7,9 @@ It's a one time **Quick Set-Up** taking about 1 minute of your time, while savin
 **WORK SMART NOT HARD :)**
 
 ---
+### There are two ways to do it.
+1. Through your personal gmail account (@gmail.com). 
+As university's provided domain id restricts the installation of extentions from Chrome Web Store, we can install the extension on our personal gmail account and log in to our flex from here.
 
 ## Installation
 
@@ -41,3 +44,18 @@ It's a one time **Quick Set-Up** taking about 1 minute of your time, while savin
 
 * **Windows & macOS:** Fully supported on **Google Chrome**, **Brave**, **Microsoft Edge**, and **Arc**.
 * **Safari (macOS):** Requires the free <a href="https://apps.apple.com/app/userscripts/id1463298887" target="_blank" rel="noopener noreferrer">Userscripts extension</a> from the Mac App Store (or run the script via Chrome for Mac).
+
+
+---
+
+### 2. Through University's provided id
+Method: Bookmarklet (For FAST `@nu.edu.pk` Accounts)
+
+University-managed Google Workspace accounts often block Chrome extensions and Tampermonkey. Using this zero-installation bookmarklet instead:
+
+1. Press **`Ctrl + Shift + O`** in Chrome to open the **Bookmark Manager** (or right-click your toolbar and select **Add page/bookmark...**).
+2. Set the **Name** to `⚡ Auto-Fill Course Feedback`.
+3. Copy and paste the following code into the **URL** field:
+
+COPY:
+javascript:(function(){var u=window.location.href;var isFB=u.includes('/Student/FeedBackQuestions')||u.includes('/Student/CourseFeedback');var r=document.querySelectorAll('input[type="radio"]');if(!isFB||!r.length){alert('Not on a valid FAST FLEX feedback page with questions.');return;}var n=[];for(var i=0;i<r.length;i++){if(n.indexOf(r[i].name)===-1)n.push(r[i].name);}n.forEach(function(m){var o=document.querySelectorAll('input[type="radio"][name="'+m+'"]');if(o.length){o[0].checked=true;o[0].dispatchEvent(new Event('change',{bubbles:true}));o[0].dispatchEvent(new Event('click',{bubbles:true}));}});document.querySelectorAll('textarea').forEach(function(t){t.value="";t.dispatchEvent(new Event('input',{bubbles:true}));});})();
