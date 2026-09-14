@@ -57,5 +57,10 @@ University-managed Google Workspace accounts often block Chrome extensions and T
 2. Set the **Name** to `⚡ Auto-Fill Course Feedback`.
 3. Copy and paste the following code into the **URL** field:
 
-COPY:
+```javascript
 javascript:(function(){var u=window.location.href;var isFB=u.includes('/Student/FeedBackQuestions')||u.includes('/Student/CourseFeedback');var r=document.querySelectorAll('input[type="radio"]');if(!isFB||!r.length){alert('Not on a valid FAST FLEX feedback page with questions.');return;}var n=[];for(var i=0;i<r.length;i++){if(n.indexOf(r[i].name)===-1)n.push(r[i].name);}n.forEach(function(m){var o=document.querySelectorAll('input[type="radio"][name="'+m+'"]');if(o.length){o[0].checked=true;o[0].dispatchEvent(new Event('change',{bubbles:true}));o[0].dispatchEvent(new Event('click',{bubbles:true}));}});document.querySelectorAll('textarea').forEach(function(t){t.value="";t.dispatchEvent(new Event('input',{bubbles:true}));});})();
+```
+
+4. Click Save.
+
+5. Open any teacher or lab evaluation page on Flex and click your ⚡ Auto-Fill Feedback bookmark to autofill all questions instantly!
