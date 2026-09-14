@@ -5,7 +5,7 @@
 // @description  Autofills teacher/lab evaluation forms on FAST FLEX portal.
 // @match        https://flexstudent.nu.edu.pk/*
 // @grant        none
-// ==UserScript==
+// ==/UserScript==
 
 (function() {
     'use strict';
