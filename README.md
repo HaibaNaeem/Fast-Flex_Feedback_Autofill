@@ -7,13 +7,13 @@ A lightweight Tampermonkey userscript that automates FAST FLEX teacher and lab e
 ## Installation
 
 ### Step 1: Install Tampermonkey
-1. Go to the [Tampermonkey Chrome Web Store Page](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
+1. Go to the <a href="https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank" rel="noopener noreferrer">Tampermonkey Chrome Web Store Page</a>.
 2. Click **Add to Chrome**, then select **Add extension**.
 
 ---
 
 ### Step 2: Install the Script
-1. Click the **[One-Click Script Installation Link](https://www.tampermonkey.net/script_installation.php#url=https://github.com/HaibaNaeem/Fast-Flex_Feedback_Autofill/raw/refs/heads/main/flex-autofill.user.js)**.
+1. Click the <a href="https://www.tampermonkey.net/script_installation.php#url=https://github.com/HaibaNaeem/Fast-Flex_Feedback_Autofill/raw/refs/heads/main/flex-autofill.user.js" target="_blank" rel="noopener noreferrer">One-Click Script Installation Link</a>.
 2. Tampermonkey will open an installation tab. Click **Install**.
 
 ---
@@ -36,4 +36,4 @@ A lightweight Tampermonkey userscript that automates FAST FLEX teacher and lab e
 ## Supported Browsers & Platforms
 
 * **Windows & macOS:** Fully supported on **Google Chrome**, **Brave**, **Microsoft Edge**, and **Arc**.
-* **Safari (macOS):** Requires the free [Userscripts extension](https://apps.apple.com/app/userscripts/id1463298887) from the Mac App Store (or run the script via Chrome for Mac).
+* **Safari (macOS):** Requires the free <a href="https://apps.apple.com/app/userscripts/id1463298887" target="_blank" rel="noopener noreferrer">Userscripts extension</a> from the Mac App Store (or run the script via Chrome for Mac).
